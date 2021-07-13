@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.click {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 137, 157),
+    rgb(233, 77, 103)
+  );
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: 10%;
+  font-size: 3vw;
+  border-radius: 3em;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 2vw;
+  cursor: pointer;
+  font-family: "Open Sans";
+}
+img {
+  position: relative;
+}
+.hearts {
+  position: fixed;
+}
+.hidden {
+  display: none;
+}
+.text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 15vw;
+  left: 50%;
+  color: white;
+  font-size: 4vw;
+  -webkit-text-stroke: 1px black;
+  font-family: "Pacifico";
+  text-shadow: 2px 2px 4px #000000;
+}
+.text2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45vw;
+  left: 50%;
+  color: rgb(246, 56, 97);
+  font-size: 2.5vw;
+  -webkit-text-stroke: 1px black;
+  font-family: "Permanent Marker";
+  width: 80%;
+  text-shadow: 2px 2px 4px #000000;
+}
+span {
+  margin-left: 60%;
+  text-align: center;
+  color: rgb(255, 0, 170);
+}
